@@ -10,5 +10,6 @@ class Neuron:
         
         self.b = 0
         self.A = 0
-        self.W = np.random.randn(nx).reshape(1, nx)
+        self.nx = nx
+        self.W = np.random.randn(1, nx)
         
