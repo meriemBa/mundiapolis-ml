@@ -1,12 +1,9 @@
+#!/usr/bin/env python3
 import numpy as np
 
-
 class NeuralNetwork:
-    
-
     def __init__(self, nx, nodes):
-       
-
+    
         if type(nx) is not int:
             raise TypeError("nx must be an integer")
         if nx < 1:
